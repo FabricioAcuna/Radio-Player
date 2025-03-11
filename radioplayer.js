@@ -3,7 +3,7 @@ const channelElement = document.getElementById("channels");
 
 async function getApi() {
   const response = await fetch(
-    "http://api.sr.se/api/v2/channels?format=json&size=100"
+    "https://api.sr.se/api/v2/channels?format=json&size=100"
   );
   const data = await response.json();
 
